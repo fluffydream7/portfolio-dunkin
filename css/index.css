@@ -9,6 +9,7 @@
 }
 body {
     font-family: 'Jua', sans-serif;
+    overflow-x: hidden;
 }
 
 /* section 구역 */
@@ -319,16 +320,16 @@ body {
 }
 .brand_btn div {
     position: fixed;
-    bottom: 80px;
-    right: 80px;
+    bottom: 30px;
+    right: 30px;
     text-align: center;
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     border: none;
     border-radius: 50%;
     color: #ffba00;
     background: #75675c;
-    font-size: 24px;
+    font-size: 14px;
     font-family: 'Jua', sans-serif;
     font-weight: bold;
     transition: all 1s;
@@ -371,11 +372,6 @@ body {
         right: 18%;
         top: 20%;
     }
-
-    .brand_btn div {
-        bottom: 50px;
-        right: 50px;
-    }
 }
 
 @media screen and (max-width: 1024px) { 
@@ -396,6 +392,7 @@ body {
     .fixed_img > div {
         overflow: hidden;
     }
+
     .fixed_img {
         background-position: -400px 0px;
     }
@@ -443,14 +440,15 @@ body {
     
     /* article 6 no changes */
     /* article7 no changes */
-
-    .brand_btn div {
-        bottom: 35px;
-        right: 35px;
-    }
 }
 
 @media screen and (max-width: 938px) {
+    #section {
+        padding-top: 121px;
+    }
+    .article4 li p {
+        line-height: 1.5em;
+    }
     .map {
         left: 2%;
     }
@@ -458,16 +456,16 @@ body {
     .catering {
         right: 2%;
     }
-
-    .brand_btn div {
-        bottom: 20px;
-        right: 20px;
-    }
 }
 
 
 @media screen and (max-width: 768px) {
-    /* article1 구역 no changes*/
+    .slide {
+        background-position: 50% 50%;
+        background-size: cover;
+        padding: 200px 0;
+        width: 100%;
+    }
     
      /* article2 구역 */
     .article2 .event_img p {
@@ -482,7 +480,19 @@ body {
         position: relative;
         padding-bottom: 20px;
     } 
-    
+
+    .article2 .event_img a::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 7%;
+        right: 0;
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        transition: all 0.4s;
+    }
+
      /* article3 구역 */
     .txt1 {
         left: 45%;
@@ -534,9 +544,11 @@ body {
     }
 
     .brand_btn div {
-        width: 70px;
-        height: 70px;
-        font-size: 18px;
+        width: 50px;
+        height: 50px;
+        bottom: 10px;
+        right: 10px;
+        font-size: 12px;
     }
 }
 
@@ -596,13 +608,13 @@ body {
         top: 20%;
         left: 20%;
     }
-    .txt1 img {
-        width: 150px;
-    }
-
+   
     .txt2 {
         top: 55%;
         right: 50%;
+    }
+    .txt1 img {
+        width: 150px;
     }
 
     .txt2 img {
