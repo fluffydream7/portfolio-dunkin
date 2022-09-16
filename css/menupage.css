@@ -1,0 +1,128 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+body {
+    font-family: 'Jua', sans-serif;
+}
+
+#mainmenu_box img{
+    padding-top: 167px;
+}
+#menu_box {
+    padding-top: 70px;
+}
+#menu_box > div {
+    text-align: center;
+    position: relative;
+}
+#menu_box > div > h2 {
+    position: absolute;
+    top: -10px;
+    left: 50;
+    transform: translateX(-50%);
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 15px;
+    background: #392213;
+}
+#menu_box > div:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #ffba00;
+}
+
+#menu_box .list {
+    padding-bottom: 300px;
+}
+#menu_box .list li {
+    float: left;
+    width: 20%;
+    color: #75675c;
+    font-size: 19px;
+}
+#menu_box .list img {
+    width: 200px;
+    transition: all 0.3s;
+}
+#menu_box .list img:hover {
+    transform: scale(1.2);
+}
+#menu_box .list button {
+    background: #fff;
+    width: 80px;
+    height: 20px;
+    border: 1px solid #c8bfb0;
+    border-radius: 5px;
+    color: #ab9b7f;
+    margin-top: 10px;
+    transition: all 0.3s;
+}
+#menu_box .list button:hover {
+    color: #fff;
+    background: #ab9b7f;
+}
+
+#menu_box .list_1 {
+    background: #f8faf0;
+    border-bottom: 1px solid #e5e2e0;
+}
+#menu_box .list_2 {
+    margin-top: 70px;
+    position: relative;
+}
+#menu_box .list_3 {
+    margin-top: 50px;
+    position: relative;
+    margin-bottom: 70px;
+    border-bottom: 1px solid #e5e2e0;
+}
+#menu_box .title_bar a {
+    padding-bottom: 50px;
+}
+#menu_box .title_bar h2 {
+    width: 200px;
+    height: 30px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 15px;
+    background: #392213;
+}
+#menu_box .title_bar:before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #ffba00;
+    z-index: -1;
+}
+.wrap ul {
+    overflow: hidden;
+}
+.wrap li {
+    float: left;
+}
+.wrap li img {
+    width: 260px;
+    height: 230px;
+}
+
+@media screen and (max-width: 1024px) {
+    #mainmenu_box img {
+        padding-top: 121px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+

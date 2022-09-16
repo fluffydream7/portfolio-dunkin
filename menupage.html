@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>리뉴얼프로젝트</title>
+    <script src="./js/prefixfree.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/menupage.css">
+    <!--[if lt IE9]>
+        <script src="./js/html5shiv.min.js"></script>
+    <![endif]-->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="content inner cf">
+            <h1 class="logo">
+                <a href="./index.html"><img src="./image/logo_dunkindonuts.png" alt=""></a>
+            </h1>
+            <div class="sns">
+                <a href="#">FACEBOOK</a>
+                <a href="#">BLOG</a>
+                <a href="#">INSTAGRAM</a>
+                <a href="#">TWITTER</a>
+                <a href="#">YOUTUBE</a>
+            </div>
+            <div class="opensns">
+                <span class="blind">네비게이션 열고 닫기</span>
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="etc">
+                <div class="etc_1">
+                    <a href="#">창업문의</a>
+                    <a href="#">고객센터</a>
+                    <a href="#">SEARCH</a>
+                </div>
+            </div>
+            <div class="etc_2">
+                <a href=""><img src="./image/icon_search.png" alt=""></a>
+            </div>
+        </div>
+        <nav id="nav">
+            <div class="nav_1 cf inner">
+                <div class="membership">
+                    <a href="./login.html"><span>LOGIN</span></a>
+                    <a href="./join.html"><span>JOIN</span></a>
+                </div>
+                <ul class="depth1 cf">
+                    <li>
+                        <a href="./brand.html"><h3>BRAND</h3></a>
+                        <ul class="depth2">
+                            <li><a href="#">브랜드 소개</a></li>
+                            <li><a href="#">브랜드 소식</a></li>
+                            <li><a href="#">미디어센터</a></li>
+                            <li><a href="#">CF</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./menupage.html"><h3>MENU</h3></a>
+                        <ul class="depth2">
+                            <li><a href="#">DONUT</a></li>
+                            <li><a href="#">SANDWICHES</a></li>
+                            <li><a href="#">COFFEE</a></li>
+                            <li><a href="#">BEVERAGE</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><h3>STORE</h3></a>
+                        <ul class="depth2">
+                            <li><a href="#">오프라인STORE</a></li>
+                            <li><a href="#">가맹점 안내</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><h3>NUTRIENTS</h3></a>
+                        <ul class="depth2">
+                            <li><a href="#">영양정보</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><h3>EVENTS</h3></a>
+                        <ul class="depth2">
+                            <li><a href="#">진행 이벤트</a></li>
+                            <li><a href="#">당첨자 발표</a></li>
+                        </ul>
+                    </li>
+                </ul>    
+            </div>
+        </nav>
+    </header>
+    <section>
+        <article id="mainmenu_box">
+            <img src="./image/menu_banner.jpg" alt="">
+        </article>
+        <article id="menu_box" class="inner">
+            <div>
+                <h2>Best Donuts</h2>
+                <div>
+                    <img src="./image/1641602527.png" alt="">
+                </div>
+                <div class="list list_1">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="./image/donut_2.png" alt="츄이도넛">
+                                <h4>츄이도넛</h4>
+                                <button>BUY</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./image/donut_6.png" alt="피치핑크 필드">
+                                <h4>피치핑크 필드</h4>
+                                <button>BUY</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./image/donut_7.png" alt="버터카라멜 바이츠">
+                                <h4>버터카라멜 바이츠</h4>
+                                <button>BUY</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./image/donut_8.png" alt="버터카라멜 아일랜드">
+                                <h4>버터카라멜 아일랜드</h4>
+                                <button>BUY</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./image/donut_9.png" alt="포켓몬도넛">
+                                <h4>이브이 카라멜</h4>
+                                <button>BUY</button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="list list_2 title_bar">
+                    <a href="#"><h2>Classic Donuts</h2></a>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="./image/donut_5.png" alt="츄이도넛">
+                                <h4>글레이즈</h4>
+                                <button>BUY</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./image/donut_10.png" alt="피치핑크 필드">
+                                <h4>올드패션</h4>
+                                <button>BUY</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./image/donut_3.png" alt="버터카라멜 바이츠">
+                                <h4>바바리안 필드</h4>
+                                <button>BUY</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./image/donut_11.png" alt="버터카라멜 아일랜드">
+                                <h4>카카오딥</h4>
+                                <button>BUY</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./image/donut_12.png" alt="포켓몬도넛">
+                                <h4>허니후리터</h4>
+                                <button>BUY</button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="list list_3 title_bar">
+                    <a href="#"><h2>Non Donuts</h2></a>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="./image/other_1.png" alt="츄이도넛">
+                                <h4>츄이도넛</h4>
+                                <button>BUY</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./image/other_2.png" alt="피치핑크 필드">
+                                <h4>피치핑크 필드</h4>
+                                <button>BUY</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./image/other_3.png" alt="버터카라멜 바이츠">
+                                <h4>버터카라멜 바이츠</h4>
+                                <button>BUY</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./image/other_4.png" alt="버터카라멜 아일랜드">
+                                <h4>버터카라멜 아일랜드</h4>
+                                <button>BUY</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./image/other_5.png" alt="포켓몬도넛">
+                                <h4>이브이 카라멜</h4>
+                                <button>BUY</button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+        <article>         <!--자바스크립트로 스크롤 이미지 만들예정-->
+            <ul class="wrap">
+                <li><a href="#"><img src="./image/1649060552a.png" alt=""></a></li>
+                <li><a href="#"><img src="./image/1649060552b.png" alt=""></a></li>
+                <li><a href="#"><img src="./image/1649060552c.png" alt=""></a></li>
+                <li><a href="#"><img src="./image/1649060552d.png" alt=""></a></li>
+                <li><a href="#"><img src="./image/1649060552e.png" alt=""></a></li>
+                <li><a href="#"><img src="./image/1649060552f.png" alt=""></a></li>
+                <li><a href="#"><img src="./image/1649060552g.png" alt=""></a></li>
+                <li><a href="#"><img src="./image/1649060552h.png" alt=""></a></li>
+                <li><a href="#"><img src="./image/1649060552i.jpg" alt=""></a></li>
+                <li><a href="#"><img src="./image/1649060552j.png" alt=""></a></li>
+                <li><a href="#"><img src="./image/1649060552k.png" alt=""></a></li>
+                <li><a href="#"><img src="./image/1649060552l.png" alt=""></a></li>
+                <li><a href="#"><img src="./image/1649060552m.png" alt=""></a></li>
+                <li><a href="#"><img src="./image/1649060552n.png" alt=""></a></li>
+                <li><a href="#"><img src="./image/1649060552o.png" alt=""></a></li>
+            </ul>
+        </article>
+    </section>
+    <footer id="footer" class="inner">
+        <div class="footer_logo">
+            <h1>
+                <a href="#"><img src="./image/logo_dunkindonuts.png" alt=""></a>
+            </h1>
+            <div>
+                <p>서울특별시 서초구 남부순환로 2620(양재동 11-149번지)</p>
+                <p>사업자 등록번호 : 303-81-09535</p>
+                <p>비알코리아(주) 대표이사 : 도세호</p>
+                <p>TEL : 080-555-3131</p>
+                <p>개인정보관리책임자 : 김경우</p>
+                <p>COPYRIGHT Ⓒ 2016 BRKOREA COMPANY. ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+        <div class="footer_img">
+            <a href="#"><img src="./image/footer_img_btn1.png" alt=""></a>
+            <a href="#"><img src="./image/footer_img_btn3.png" alt=""></a>
+        </div>
+        <div class="etc inner">
+            <a href="#">윤리신고센터</a>
+            <a href="#">이용약관</a>
+            <a href="#">개인정보처리방침</a>
+            <a href="#">영상정보처리기기운영관리방침</a>
+            <a href="#">안전보건경영방침</a>
+            <a href="#">이메일무단수집거부</a>
+            <a href="#">거래희망회사 사전등록</a>
+            <a href="#">채용안내</a>
+        </div>
+    </footer>
+
+    <script src="./js/menupage.js"></script>
+
+    
+</body>
+</html>

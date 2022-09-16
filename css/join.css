@@ -1,0 +1,156 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+#joinsection {
+    margin-top: 166px;
+    font-family: 'Jua', sans-serif;
+}
+#joinsection  h1 {
+    font-size: 42px;
+    font-weight: 300;
+    color: #372317;
+    padding: 60px 0 30px;
+    text-align: center;
+}
+#joinsection p {
+    text-align: center;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #ffba00;
+}
+#joinsection h3 {
+    position: relative;
+    font-size: 22px;
+    line-height: 40px;
+    color: #39261f;
+}
+#joinsection .box_1 {
+    border-bottom: 2px solid #ffba00;
+}
+#joinsection .info_box {
+    width: 370px;
+    margin: 0 auto;
+}
+#joinsection h4 {
+    font-size: 18px;
+    color: #39261f;
+    padding-bottom: 20px;
+}
+#joinsection .basic_info h3 {
+    padding: 50px 0 10px 50px;
+}
+#joinsection .basic_info h3::before {
+    background-image: url(../image/person_icon.png);
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: 0;
+}
+#joinsection .personal_info input {
+    display: block;
+    margin: 15px 0;
+    width: 100%;
+    height: 45px;
+    padding: 19px 15px;
+    color: #39261f;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 1px solid #d1cccb;
+    background: #fff;
+}
+#joinsection .personal_info input:last-child {
+    margin-bottom: 50px;
+}
+#joinsection .box_2 {
+    border-bottom: 2px solid #ffba00;
+}
+#joinsection .selective_info h3{
+    padding: 50px 0 30px 50px;
+}
+#joinsection .selective_info h3::before {
+    background-image: url(../image/check_icon.png);
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: 0;
+}
+#joinsection .gender {
+    border-bottom: 1px solid #ffba00;
+}
+#joinsection .gender label {
+    color: #39261f;
+    font-size: 15px;
+    padding: 0 20px 20px 0;
+}
+#joinsection .date {
+    padding-bottom: 20px; 
+}
+#joinsection .date h4 {
+    padding-top: 20px;
+}
+#joinsection .date #year,
+#joinsection .date #month,
+#joinsection .date #day {
+    width: 32%;
+    height: 45px;
+    color: #39261f;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 1px solid #d1cccb;
+    background: #fff;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+}
+#joinsection .box_3 {
+    border-bottom: 1px solid #ffba00;
+    background: #fcfcfc;
+}
+#joinsection .pwd_info h3 {
+    padding: 50px 0 40px 50px;
+}
+#joinsection .pwd_info h3::before {
+    background-image: url(../image/key_icon.png);
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: 0;
+}
+#joinsection .pwd_info input {
+    display: block;
+    width: 100%;
+    height: 45px;
+    color: #39261f;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 1px solid #d1cccb;
+    background: #fff;
+    padding: 19px 15px;
+}
+#joinsection .pwd_info > input {
+    margin-bottom: 50px;
+}
+#joinsection .pwd_box span {
+    display: block;
+    font-size: 11px;
+    color: #f00;
+    margin: 5px 0 20px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+#joinsection .pwd_box input:focus+span {
+    opacity: 1;
+}
+
+
+
