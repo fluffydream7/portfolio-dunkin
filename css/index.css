@@ -588,6 +588,7 @@ body {
     .txt1 {
         top: 20%;
         left: 20%;
+        transform: translateX(0%);
     }
     .txt1 img {
         width: 150px;
@@ -596,6 +597,7 @@ body {
     .txt2 {
         top: 55%;
         right: 50%;
+        transform: translateX(0%);
     }
 
     .txt2 img {
