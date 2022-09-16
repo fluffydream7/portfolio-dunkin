@@ -144,7 +144,7 @@ body {
     opacity: 1;
 }
 .sliding-text {         /* target */
-    transition: transform 1s ease-out;
+    transition: transform 0.8s ease-out;
 }
 
 .article4 {
