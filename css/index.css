@@ -130,14 +130,14 @@ body {
     top: 20%;
     left: 33%;
     opacity: 0;
-    transform: translateX(-150%);
+    transform: translateX(-300%);
 }
 .txt2 {
     position: absolute;
     top: 55%;
     right: 47%;
     opacity: 0;
-    transform: translateX(150%);
+    transform: translateX(300%);
 }
 .slide_txt {         /* animationName */
     transform: translateX(0);
@@ -392,6 +392,9 @@ body {
     }
     
      /* article3 구역 */
+    .fixed_img > div {
+        overflow: hidden;
+    }
     .fixed_img {
         background-position: -400px 0px;
     }
