@@ -16,7 +16,7 @@ $('.opensns').on('click', function () {
         $(this).find('i').removeClass('fa-xmark').addClass('fa-bars')
     }
     $('#header #nav').toggleClass('on')
-    $('html').css({
-        overflowY: 'hidden'
+    $('window').css({
+        overflowY: 'auto'
     })
 })
